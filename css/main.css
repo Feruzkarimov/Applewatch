@@ -210,9 +210,7 @@ a {
   justify-content: center;
   align-items: center;
   border: none;
-}
-
-.site-hero__btn-link{
+  
   color: var(--backgroundPrimary);
   text-align: center;
   font-size: 18px;
@@ -344,9 +342,7 @@ a {
   justify-content: center;
   align-items: center;
   border: none;
-}
 
-.site-info__start-link{
   color: var(--backgroundPrimary);
   text-align: center;
   font-size: 18px;
@@ -354,6 +350,8 @@ a {
   line-height: 27px;
   text-transform: uppercase;
 }
+
+
 
 /* INFO END */
 
@@ -409,9 +407,7 @@ a {
   align-items: center;
   background-color: var(--btnPrimary);
   border:none;
-}
 
-.site-footer__link{
   color: var(--backgroundPrimary);
   text-align: center;
   font-size: 18px;
