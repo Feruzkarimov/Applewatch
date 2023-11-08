@@ -129,7 +129,7 @@ a {
   color: var(--colorPrimary);
   text-align: center;
   font-size: 15px;
-  line-height: 150%; /* 22.5px */
+  line-height: 22.5px; 
 }
 
 .site-header__nav-btn{
@@ -165,15 +165,22 @@ a {
 .site-hero{
   width: 100%;
   height: 100vh;
+  min-height: 650px;
   background-image: url(../img/intro-bg.png);
   background-repeat: no-repeat;
   background-position: 860px, 80px;
 }
 
-
 .site-hero__wrapper{
+  position: relative;
+}
+
+.site-hero__wrapper-box{
   width: 100%;
   max-width: 490px;
+  position: absolute;
+  left: 0;
+  top: 170px;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -197,10 +204,17 @@ a {
 }
 
 .site-hero__btn{
+  width: 260px;
   padding: 12px;
   background-color: var(--btnPrimary);
-  
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.site-hero__btn-link{
   color: var(--backgroundPrimary);
+  text-align: center;
   font-size: 18px;
   font-weight: 700;
   line-height: 27px; 
@@ -342,5 +356,70 @@ a {
 }
 
 /* INFO END */
+
+/* FOOTER START */
+
+.site-footer{
+  width: 100%;
+  height: 100vh;
+  min-height: 830px;
+  background-image: url(../img/runners.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.site-footer__wrapper{
+  position: relative;
+}
+
+.site-footer__wrapper-box{
+  width: 100%;
+  max-width: 490px;
+  position: absolute;
+  right: 0;
+  top: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 30px;
+}
+
+.site-footer__title{
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--backgroundPrimary);
+  font-size: 50px;
+  font-weight: 700;
+  line-height:  60px;
+}
+
+.site-footer__desc{
+  padding-left: 40px;
+  color: var(--backgroundPrimary);
+  line-height: 24px;
+  border-left: 3px solid var(--backgroundPrimary);
+}
+
+.site-footer__button{
+  width: 260px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--btnPrimary);
+  border:none;
+}
+
+.site-footer__link{
+  color: var(--backgroundPrimary);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+/* FOOTER END */
 
 /* MAIN END */
