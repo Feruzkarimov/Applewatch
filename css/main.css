@@ -164,23 +164,17 @@ a {
 
 .site-hero{
   width: 100%;
-  height: 100vh;
-  min-height: 650px;
-  background-image: url(../img/intro-bg.png);
+  padding-top: 140px;
+  padding-bottom: 183px;
+  background-image: url(../img/watches.png);
   background-repeat: no-repeat;
-  background-position: 860px, 80px;
+  background-size: 587px;
+  background-position: calc(50% + 654px) bottom;
 }
 
 .site-hero__wrapper{
-  position: relative;
-}
-
-.site-hero__wrapper-box{
   width: 100%;
   max-width: 490px;
-  position: absolute;
-  left: 0;
-  top: 170px;
   display: flex;
   flex-direction: column;
   gap: 30px;
